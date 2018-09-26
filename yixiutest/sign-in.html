@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<meta name="renderer" content="webkit">
+		<title>登录</title>
+		<link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+		<link rel="stylesheet" href="css/base.css">
+		<link rel="stylesheet" href="css/style.css">
+		<!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
+		<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+		<!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
+		<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	</head>
+
+	<body>
+
+		<div class="bg"></div>
+		<div class="container">
+
+			<div class="line bouncein">
+
+				<div class="xs6 xm4 xs3-move xm4-move">
+					<div style="height:130px;">
+						
+						<ul style="padding-top:80px;" class="nav nav-pills nav-justified">
+							<li class="active">
+								<a  data-toggle="pill" href="#sign-in">登录</a>
+							</li>
+							<li>
+								<a  data-toggle="pill" href="#sign-up">注册</a>
+							</li>
+						</ul>
+					</div>
+					<div class="media media-y margin-big-bottom ">
+					</div>
+					
+					<div class="tab-content">
+						<div class="tab-pane in active fade" id="sign-in">
+							<form action="index.html" method="post">
+								<div class="panel loginbox">
+									<div class="text-center margin-big padding-big-top">
+										<h1>易修登录中心</h1>
+										<div>
+										<a href="index.html" style="padding-left:250px ;display=" block ";">回到首页</a>
+									</div>
+									</div>
+									<div class="panel-body" style="padding:30px; padding-bottom:10px; padding-top:10px;">
+										<div class="form-group">
+											<div class="field field-icon-right">
+												<input type="text" class="input input-big" name="name" id="username" placeholder="登录账号" />
+												<span class="icon icon-user margin-small"></span>
+											</div>
+										</div>
+										<div class="form-group">
+											<div class="field field-icon-right">
+												<input type="password" class="input input-big" name="password" id="password" placeholder="登录密码" />
+												<span class="icon icon-key margin-small"></span>
+											</div>
+										</div>
+										<div class="form-group">
+											<div class="field">
+												<input type="text" class="input input-big" name="code" placeholder="填写右侧的验证码" />
+												<img src="images/passcode.jpg" alt="" width="100" height="32" class="passcode" style="height:43px;cursor:pointer;" onClick="this.src=this.src+'?'">
+											</div>
+										</div>
+									</div>
+									
+									<div style="padding:30px;">
+										<input type="button" id="button" class="button button-block bg-main text-big input-big" value="登录">
+									</div>
+								</div>
+							</form>
+						</div>
+						<div class="tab-pane fade" id="sign-up">
+							<form action="index.html" method="post">
+								<div class="panel loginbox">
+									<div class="text-center margin-big padding-big-top">
+										<h1>注册易修账号</h1>
+									</div>
+									<div class="panel-body" style="padding:30px; padding-bottom:10px; padding-top:10px;">
+										<div class="form-group">
+											<div class="field field-icon-right">
+												<input type="text" class="input input-big" name="name" id="username" placeholder="用户名6-12位" />
+												<!--<span class="icon icon-user margin-small"></span>-->
+											</div>
+										</div>
+										<div class="form-group">
+											<div class="field field-icon-right">
+												<input type="password" class="input input-big" name="password" id="password" placeholder="用户密码6-16位" />
+												<!--<span class="icon icon-key margin-small"></span>-->
+											</div>
+										</div>
+										<div class="form-group">
+											<div class="field field-icon-right">
+												<input type="password" class="input input-big" name="password" id="password" placeholder="确认密码" />
+												<!--<span class="icon icon-key margin-small"></span>-->
+											</div>
+										</div>
+										<div class="form-group">
+											<div class="field field-icon-right">
+												<input type="password" class="input input-big" name="password" id="password" placeholder="手机号" />
+												<!--<span class="icon icon-user margin-small"></span>-->
+											</div>
+										</div>
+
+									</div>
+									<div style="padding:30px;">
+										<input type="button" id="button" class="button button-block bg-main text-big input-big" value="注册">
+									</div>
+								</div>
+							</form>
+						</div>
+
+					</div>
+				</div>
+			</div>
+			
+		</div>
+
+	</body>
+
+</html>

@@ -1,0 +1,66 @@
+body, div, dl, dt, dd, ul, li, h1, h2, h3, h4, h5, h6, form, input, button, textarea, p, th, td, span {
+    margin: 0;
+    padding: 0;
+}
+.flow{
+	float: left!important;
+}
+.positon{
+	margin: 0 auto;
+	text-align: center;
+}
+.h1{
+	margin: 50px 0px 25px 0;
+	font-family: "方正兰亭超细黑简体";
+    font-weight: 400;
+    font-size: 60px;
+}
+.line1{
+	line-height: 30px;
+	color: #4e5153;
+	font-size: 17px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.alignment{
+	margin-top: -300px;
+}
+.line2{
+	padding-left:360px ;
+	padding-top: 25px;
+	line-height: 30px;
+	color: #4e5153;
+	font-size: 17px;
+	margin-bottom: 20px;
+	text-align: left;
+	
+}
+.h2{
+	margin: 15px 0px 10px 100px;
+	font-family: "方正兰亭超细黑简体";
+    font-weight: 400;
+    font-size: 48px;
+}
+.clearfix {zoom:1;}    /*==for IE6/7 Maxthon2==*/
+.clearfix:after {
+    clear:both;
+    content:'';
+    display:block;
+    width: 0;
+    height: 0;
+    visibility:hidden;
+
+} 
+.footer{
+	background: rgb(251,251,251);
+	height: 60px;
+	margin-top: 50px;
+	margin-bottom: 0px;
+	padding: 13px;
+	text-align:center;
+}
+
+.position{
+	width: 1000px; 
+	height: 400px;
+}
